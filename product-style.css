@@ -47,6 +47,10 @@ ul {
   display: flex;
   align-items: center;
 }
+.bar-icon {
+  margin-left: 10px;
+  display: none;
+}
 .site-logo img {
   padding: 5px;
   width: 100px;
@@ -95,4 +99,13 @@ ul {
 }
 .colors-circle {
   gap: 20px;
+}
+/* MEDIA QUERIES */
+@media screen and (max-width: 479px) {
+  .bar-icon {
+    display: inline;
+  }
+  .nav-bar {
+    display: none;
+  }
 }
